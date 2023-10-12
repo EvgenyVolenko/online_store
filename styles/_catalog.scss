@@ -1,6 +1,6 @@
 .filter-sort {
     padding-top: 39px;
-    height: 132px;
+    height: 80px;
     position: relative;
     display: flex;
     gap: 30px;
@@ -93,9 +93,9 @@
     padding-top: 12px;
     display: flex;
     gap: 28px;
-
+    
     &__details {
-        position: absolute;
+       position: relative;
     }
 
     &__summary {
@@ -119,9 +119,9 @@
         gap: 8px;
         box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
         padding: 7px 30px 11px 9px;
-        position: relative;
+        position: absolute;
         left: -9px;
-        top: 5px;
+        top: 22px;
     }
 
     &__check {
