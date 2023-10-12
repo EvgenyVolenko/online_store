@@ -38,11 +38,11 @@ h4 {
     }
 }
 
-.bredcrumbs__link {
+.breadcrumbs__link {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #636363;
+    color: $breadcrumbsLinkColor;
 
     &__site {
         font-weight: 700;
