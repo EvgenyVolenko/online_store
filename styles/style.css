@@ -600,6 +600,7 @@ summary, li::-webkit-details-marker {
   text-align: center;
   color: white;
   justify-content: center;
+  cursor: pointer;
 }
 
 .advantages {
