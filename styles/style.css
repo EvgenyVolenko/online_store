@@ -378,9 +378,18 @@ h4 {
   justify-content: space-between;
   width: 652px;
 }
-.cart-box__product-box__item__buttons {
+.cart-box__product-box__item__button {
+  height: 50px;
   padding: 16px 40px;
   cursor: pointer;
+  font-family: Lato;
+  color: #222222;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border: 1px solid #A4A4A4;
+  box-sizing: border-box;
 }
 
 * {
