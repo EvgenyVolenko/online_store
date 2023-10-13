@@ -1,0 +1,94 @@
+.cart-box {
+
+    padding-top: 96px;
+    padding-bottom: 128px;
+
+
+    &__product-box {
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &__item {
+            width: 652px;
+            height: 306px;
+            box-shadow: 11px 11px 35px 0px rgba(0, 0, 0, 0.21);
+            display: flex;
+
+            &__pic {
+                width: 262px;
+                object-fit: cover;
+            }
+
+            &__description {
+
+                width: 262px;
+                height: 222px;
+                padding: 22px 97px 62px 31px;
+                position: relative;
+
+                &__name {
+                    color: $blackText;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-right: 70px;
+                }
+
+                &__data {
+                    padding-top: 42px;
+                    color: $breadcrumbsLinkColor;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    gap: 6px;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                &__price {
+                    color: $mainColor;
+                }
+
+                &__quantity {
+                    display: flex;
+                    justify-content: center;
+                    width: 44px;
+                    height: 24px;
+                    border: 1px solid $paginationShrinkColor;
+                    color: $breadcrumbsLinkColor;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                &__quantity-flex {
+                    display: flex;
+                    gap: 24px;
+                }
+
+                &__close {
+                    position: absolute;
+                    right: 22px;
+                    top: 28px;
+                    cursor: pointer;
+                }
+            }
+
+            &__button-box {
+                display: flex;
+                justify-content: space-between;
+                width: 652px;
+            }
+
+            &__buttons {
+                padding: 16px 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}
