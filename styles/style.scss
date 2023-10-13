@@ -21,11 +21,11 @@ a {
     text-decoration: none;
 }
 
-summary {
+summary, li {
     display: block;
 }
 
-summary::-webkit-details-marker {
+summary, li::-webkit-details-marker {
     display: none;
 }
 
