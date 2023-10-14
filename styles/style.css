@@ -310,6 +310,11 @@ h4 {
 .cart-box__product-box {
   display: flex;
   flex-direction: column;
+  gap: 72px;
+}
+.cart-box__product-box__list {
+  display: flex;
+  flex-direction: column;
   gap: 40px;
 }
 .cart-box__product-box__item {

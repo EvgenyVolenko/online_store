@@ -8,7 +8,13 @@
 
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 72px;
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
 
         &__item {
             width: 652px;
@@ -101,7 +107,5 @@
         }
     }
 
-    &__order-details {
-        
-    }
+    &__order-details {}
 }
