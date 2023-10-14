@@ -394,6 +394,7 @@ h4 {
   font-weight: 300;
   line-height: normal;
   border: 1px solid #A4A4A4;
+  box-sizing: border-box;
 }
 .cart-box__order-details {
   display: flex;
@@ -510,7 +511,7 @@ h4 {
 .cart-box__order-details__checkout__line {
   position: absolute;
   width: 274px;
-  border: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
   top: 104px;
   left: 44px;
 }
