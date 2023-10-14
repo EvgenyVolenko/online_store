@@ -2,6 +2,7 @@
 
     padding-top: 96px;
     padding-bottom: 128px;
+    display: flex;
 
 
     &__product-box {
@@ -102,10 +103,78 @@
                 font-weight: 300;
                 line-height: normal;
                 border: 1px solid #A4A4A4;
-                box-sizing: border-box;
             }
         }
     }
 
-    &__order-details {}
+    &__order-details {
+        display: flex;
+        flex-direction: column;
+        padding-left: 128px;
+
+        &__ship-adress {
+            padding-top: 17px;
+            width: 360px;
+            height: 272px;
+            box-sizing: border-box;
+
+            &__heading {
+                color: $blackText;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+            }
+
+            &__input {
+                width: 360px;
+                height: 45px;
+                box-sizing: border-box;
+                border: 1px solid #A4A4A4;
+            }
+
+            &__list {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-top: 20px;
+                padding-bottom: 24px;
+                color: $blackText;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+            }
+
+            &__button {
+                height: 35px;
+                width: 100px;
+                padding: 8px 12px;
+                cursor: pointer;
+                font-family: Lato;
+                color: #4A4A4A;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                border: 1px solid #A4A4A4;
+            }
+        }
+
+        &__input::placeholder {
+            color: #b1b1b1;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        &__input-dark::placeholder {
+            color: $blackText;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
 }
